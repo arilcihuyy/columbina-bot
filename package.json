@@ -1,0 +1,53 @@
+{
+  "name": "columbina-bot",
+  "version": "1.0.0",
+  "description": "Bot WhatsApp berbasis Baileys: stiker (foto/video/teks/brat animasi), hapus background, downloader 15+ platform, anti-shortlink. Tanpa database, tanpa framework berat — setup satu perintah.",
+  "type": "module",
+  "main": "src/index.js",
+  "license": "MIT",
+  "author": "Aril (https://github.com/arilcihuyy)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arilcihuyy/columbina-bot.git"
+  },
+  "homepage": "https://github.com/arilcihuyy/columbina-bot#readme",
+  "bugs": {
+    "url": "https://github.com/arilcihuyy/columbina-bot/issues"
+  },
+  "keywords": [
+    "whatsapp",
+    "whatsapp-bot",
+    "baileys",
+    "bot",
+    "sticker",
+    "brat",
+    "downloader",
+    "nodejs"
+  ],
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "setup": "node scripts/setup.js",
+    "doctor": "node scripts/doctor.js",
+    "test": "node scripts/test-media.js",
+    "test:all": "node scripts/test-media.js && node scripts/test-menu.js && node scripts/test-prefix.js && node scripts/test-tiktok-photo.js && node scripts/test-preview.js && node scripts/test-prw-doctor.js && node scripts/test-ytmp3.js && node scripts/test-brat.js",
+    "postinstall": "node scripts/patch-baileys.js"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^1.0.9",
+    "@whiskeysockets/baileys": "7.0.0-rc14",
+    "axios": "^1.7.0",
+    "cheerio": "^1.2.0",
+    "dotenv": "^16.4.0",
+    "file-type": "^21.3.1",
+    "fluent-ffmpeg": "^2.1.3",
+    "node-webpmux": "^3.2.1",
+    "pino": "^9.3.0",
+    "playwright-core": "^1.63.0",
+    "qrcode-terminal": "^0.12.0",
+    "sharp": "^0.35.4"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

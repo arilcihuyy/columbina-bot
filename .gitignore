@@ -1,0 +1,16 @@
+node_modules/
+sessions/
+temp/
+tmp/
+cookies/
+.env
+*.log
+
+# Font komersial — HANYA untuk pemakaian sendiri, JANGAN ikut ke repo publik.
+# (Arial © Monotype; menyebarkannya di GitHub melanggar lisensinya.)
+# Font berlisensi bebas — mis. ArchivoNarrow.ttf (SIL OFL) — tetap boleh ikut.
+assets/fonts/ARIAL.TTF
+assets/fonts/Arial*.ttf
+assets/fonts/Arial*.TTF
+assets/fonts/arial*.ttf
+assets/fonts/ARIAL*.TTF
