@@ -1,5 +1,3 @@
-![Columbina Bot](assets/columbina/banner.jpg)
-
 # 🌙 Columbina Bot
 
 **Bot WhatsApp lengkap dalam satu perintah setup.** Stiker (foto, video, teks, brat animasi), hapus background, downloader 15+ platform, dan pemeriksa link — tanpa database, tanpa framework berat, tanpa build step.
