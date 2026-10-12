@@ -375,25 +375,5 @@ your `npm run doctor` output — **strip out the phone numbers and JIDs first.**
 
 ---
 
-## 🙏 Credits & origins
-
-This bot was **written together with an AI agent** ([Hermes Agent](https://github.com/NousResearch/hermes-agent)
-from Nous Research) — the agent that wrote the code, ran the tests, and iterated until
-every feature passed; product direction, real-device testing, and the final calls stayed
-with the repo owner. The bot's structure, setup wizard, diagnostics, and this
-documentation are the result of that collaboration.
-
-The core media and downloader features were originally adapted from
-[Haruna-Bot](https://github.com/ClayzaAubert/Haruna-Bot), then rewritten without its
-framework dependency.
-
-Thanks to Baileys and every open-source library used here.
-
----
-
-## 📄 License
-
-[MIT](LICENSE) © 2026 Aril — use it, change it, share it.
-
 > This bot uses the unofficial WhatsApp Web protocol (Baileys). Use it reasonably:
 > not for spam or blasting. The risk of a number ban rests with the user.
